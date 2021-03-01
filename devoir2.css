@@ -1,0 +1,267 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;	
+
+}
+.navbar{
+	width: 100%;
+	background-color: blue;
+	position:fixed;
+	padding: 15px;
+	display: flex;
+}
+
+.logo a{
+	color: white;
+	font-size: 40px;
+	font-weight: 500;
+}
+.menu{
+	padding-top: 10px;
+
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;	
+}
+.logo a span{
+	color: black;
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+
+}
+.menu li a:hover{
+	color: black;
+}
+.home{
+	height: 1025px;
+	background-image:url('geeks.JPG');
+	display: flex;
+	
+}
+.home .max-width{
+	color: white;
+	margin:auto 120px;
+}
+.home .max-width .text-1{
+	font-size: 40px;
+	font-weight: 600;
+	color: blue;
+}
+.home .max-width .text-2{
+	font-size: 60px;
+	font-weight: 500;
+}
+.home .max-width .text-3{
+	font-size: 50px;
+	font-weight: 500;
+	color: blue;
+}
+.home .max-width .text-3 span{
+	color: white;
+}
+.home .max-width .button-one{
+	color: white;
+	font-size: 40px;
+	font-weight: 400;
+	background-color: blue;
+	border: 2px solid white;
+	border-radius: 20px;
+	padding: 5px 20px;
+	margin-top: 20px;
+}
+.home .max-width .button-one:hover{
+	background:none;
+}
+.about .title1{
+	font-weight: 500;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline blue;
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+.about .about-content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0px 60px;
+}
+.about .div-left{
+	width: 45%;
+}
+.about .div-right{
+	width: 55%;
+}
+.about .div-left img{
+	height: 600px;
+	width: 600px;
+	border-radius: 20px;
+}
+.about .div-right .text{
+	font-size: 35px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.about .div-right .text span{
+	color: blue;
+}
+.about .div-right p{
+	text-align: justify;
+	font-size: 20px;
+}
+.about .div-right a{
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+	background-color: blue;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding: 5px 20px;
+	margin-top: 20px;
+}
+.about .div-right a:hover{
+	background: none;
+	color: black;
+}
+h2{
+	margin-top: 5%;
+	font-size: 300%;
+}
+h3{
+	color: blue;
+}
+.container{
+	max-width: 1000%;
+	margin-left:15%;
+	margin-right: 15%;
+	overflow: auto;
+	float: left;
+
+}
+.memberteams{
+	margin: 5px;
+	border:1px solid black;
+	float: left;
+	width: 390px;
+	background-color: black;
+}
+.memberteams img{
+	width: 40%;
+	height: auto;
+	margin-left: 30%;
+    margin-top: 5%;
+    border-radius: 70%;
+    border: 2px solid white;
+}
+.memberteams .description{
+	color: white;
+	padding: 10%;
+}
+.home0{
+	margin-left: 15%;
+	margin-top: 5%;
+	justify-content: space-between;
+}
+.memberteams .description0{
+	color: white;
+	margin-left: 32%;
+    font-size: xx-large;
+}
+.about0 .title01{
+	font-weight: 500;
+	font-size: 250%;
+	text-align: left;
+	margin-top: 35%;
+	margin-left: 7%;
+	margin-bottom:7%;
+}
+.about0 .about-content0{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 0px 60px;
+}
+.div-left0 {
+	justify-content: space-between;
+	float: left;
+	margin-left: 4%;
+    width: 756px;
+    margin-top: -6%;
+}
+.div-right0{
+	justify-content: space-between;
+	margin: 5px;
+	width: 390px;
+}
+.form{
+	margin-top: 1%;
+	margin-left: -100%;
+    width: 100%;
+}
+.text0 h2{
+	margin-top: -50%;
+	margin-left: -100%;
+	font-weight: 500;
+	font-size: 250%;
+}
+.form .a{
+	display:block;
+	color: white;
+	font-size: 100%;
+	font-weight: 300;
+	background-color: black;
+	border: 2px solid black;
+	padding: 3% 5%;
+	margin-right: 60%;
+	border-radius: 7%;
+}
+.form span{
+	position: absolute;
+	margin-left: 5%;
+}
+.form input{
+	margin-bottom: 2%;
+}
+footer{
+	background-color: black;
+	padding: 1.5%;
+	text-align: center;
+	color: white;
+	margin-top: 10%;
+}
+footer p{
+	font-size: 150%;
+}
+footer p span{
+	color: blue;
+}
+.div-left0 i{
+	font-size: 200%;
+	color: blue;
+
+}
+.iconuser span{
+ font-size: 200%;
+font-weight: 100%;
+}
+.iconuser{
+	margin-top: -8%;
+	margin-bottom: 1.5%;
+}
+.div-left0 p{
+	 margin-bottom: 3%;
+}
